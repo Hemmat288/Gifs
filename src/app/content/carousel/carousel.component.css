@@ -1,0 +1,21 @@
+.carousel{
+  margin: 0 auto;
+}
+h1{
+  margin: 12% 0 2% 5%;
+    color: #8946A6!important;
+  font-size: 40px;
+  animation: text_reveal .5s ease forwards;
+	animation-delay: 1s;
+  }
+.carousel .carousel-item {
+  height: 300px;
+
+}
+
+.carousel-item img {
+margin: 1%;
+}
+.fa-solid{
+color: #8946A6;
+}

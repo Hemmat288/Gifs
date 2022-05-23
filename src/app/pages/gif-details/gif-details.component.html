@@ -1,0 +1,25 @@
+<div class="container" *ngIf="gif">
+ <div class="card">
+  <img src="{{ gif[0].image }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">GIF Name : {{ gif[0].name }}</p>
+    <p class="card-text">GIF category : {{ gif[0].category.name }}</p>
+
+  </div>
+</div>
+
+<h3>Related GIFs</h3>
+<marquee   direction="left" behavior="alternate" scrollamount="15">
+  <img src="https://media.giphy.com/media/cK7ZDyZFJwKxqzJggJ/giphy.gif" width="300" height="250">
+  <img src="https://media.giphy.com/media/O3mB8PZ73bwlGgKwQ0/giphy.gif" width="300" height="250">
+  <img src="https://media.giphy.com/media/WndwHF9lEm892CieAd/giphy.gif" width="300" height="250">
+  <img src="https://media.giphy.com/media/8tIR7a9qPAj3K4JXVa/giphy.gif" width="300" height="250">
+  <img src="https://media.giphy.com/media/4YCCY41GKzDuYeHnWW/giphy.gif" width="300" height="250">
+  <img src="https://media.giphy.com/media/FxUoa5gjdfgi8rDcUM/giphy.gif" width="300" height="250">
+  <img src="https://media.giphy.com/media/UCTaYoiR7pD2okgFK1/giphy.gif" width="300" height="250">
+  <img src="https://media.giphy.com/media/3oKIPkOgszO8fie0tG/giphy.gif" width="300" height="250">
+  <img src="https://media.giphy.com/media/OB4Sjggq8aMJnq4sLQ/giphy.gif" width="300" height="250">
+  </marquee>
+
+</div>
+

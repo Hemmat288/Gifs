@@ -1,0 +1,26 @@
+
+<div class="GIFS">
+    <div class="small-container">
+        <h1>GIFS</h1>
+
+        <div class="row">
+
+            <div class="mynewform">
+                <input id="mybtn" #seacrhInput class="form-control me-2" [(ngModel)]="searchText" type="search" placeholder="Search by Name of GIF or Category" #tagInput (keyup)="(search())"  (keydown)="searchas()" aria-label="Search">
+                <button class="btn bb" id="search" (click)="search()" >Search</button>
+            </div>
+
+            <div class="col-md-3 col-sm-6 img_item " *ngFor="let gif of gifs">
+                   <div class="img__wrap">
+               <a [routerLink]="['details',gif.id]"> <img  class="gif_img "   src="{{gif.image}}" /></a>
+
+            </div>
+
+
+
+          </div>
+        </div>
+    </div>
+
+</div>
+

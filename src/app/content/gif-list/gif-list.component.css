@@ -1,0 +1,66 @@
+.GIFS{
+margin: 8% 5% 5% 5%;
+}
+h1{
+  margin: 5% 0 2% 5%;
+    color: #8946A6!important;
+  font-size: 40px;
+  }
+  h3{
+    color: #8946A6!important;
+  font-size: 20px;
+  text-align: center!important;
+  padding-top: 25%;
+  }
+.gif_img{
+ height:200px!important;
+ width:100%!important;
+
+}
+.img_item{
+  transition: transform .2s;
+}
+.img_item:hover {
+  transform: scale(1.2);
+z-index: 15;
+}
+.img__wrap {
+  position: relative;
+  margin-top: 2% ;
+}
+
+
+/* --------------------search------------------------ */
+.mynewform{
+  display: flex;
+margin:0 0% 4% 0% ;
+}
+#mybtn {
+  width: 85%;
+  background: rgba(245,109,145, 0.2);
+}
+.btn{
+  width: 15%;
+  background:#F56D91;
+color: #8946A6;
+}
+
+
+/* .img__description {
+  position: absolute;
+  top: 0;
+  bottom: -5%;
+  left: 0;
+  right: 0;
+  background: rgba(245,109,145, 0.82);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+} */
+
+
+

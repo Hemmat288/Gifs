@@ -1,0 +1,42 @@
+
+
+nav{
+ background: #F56D91!important;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 12;
+
+}
+.logoo{
+  display: flex;
+  padding-right: 30px;
+  padding-left: 40px;
+
+}
+ul{
+  padding-right: 70px;
+}
+
+
+.navbar-brand{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 25px;
+  color:  #8946A6;
+  font-weight: bold;
+  margin-left: 52%;
+}
+
+.nav-icon{
+  font-size: 20px;
+  margin: auto;
+  padding-left: 50px;
+}
+
+.home-color{
+  color: #8946A6 !important;
+}
+
+

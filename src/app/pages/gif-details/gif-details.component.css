@@ -1,0 +1,22 @@
+.container{
+margin-top: 3%;
+}
+.card
+{
+width: 50%;
+margin: auto;
+
+}
+.card img{
+  margin-top: 15%;
+}
+.card p
+{
+color:  #8946A6;
+text-align: center;
+}
+h3
+{
+color: #8946A6;
+margin: 5% 0 1% 0%;
+}
