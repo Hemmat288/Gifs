@@ -7,5 +7,5 @@
 7-using lizyloading in carousel gifs
 
  note:
-Unfortunately I don't have enough time to learn vue and the task before a deadline, so I used angular
+Unfortunately I don't have enough time to learn vue and make the task before a deadline, so I used angular
 
