@@ -1,21 +1,33 @@
 .carousel{
   margin: 0 auto;
 }
-h1{
-  margin: 12% 0 2% 5%;
-    color: #8946A6!important;
-  font-size: 40px;
-  animation: text_reveal .5s ease forwards;
-	animation-delay: 1s;
-  }
 .carousel .carousel-item {
   height: 300px;
 
 }
-
 .carousel-item img {
-margin: 1%;
-}
-.fa-solid{
+  margin: 1%;
+  }
+h1{
+  margin: 12% 0 2% 5%;
+  font-size: 40px;
+  animation: changColor 3s infinite;
+
+  }
+
+@keyframes changColor{
+0%{
 color: #8946A6;
 }
+25%{
+color: #f58d6d;
+}
+50%{
+color: 	#f56dd5;
+}
+100%{
+color: #F56D91;
+}
+}
+
+

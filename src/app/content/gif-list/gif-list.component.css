@@ -3,8 +3,8 @@ margin: 8% 5% 5% 5%;
 }
 h1{
   margin: 5% 0 2% 5%;
-    color: #8946A6!important;
   font-size: 40px;
+  animation: changColor 3s infinite;
   }
   h3{
     color: #8946A6!important;
@@ -45,7 +45,20 @@ margin:0 0% 4% 0% ;
 color: #8946A6;
 }
 
-
+@keyframes changColor{
+  0%{
+  color: #8946A6;
+  }
+  25%{
+  color: #f58d6d;
+  }
+  50%{
+  color: 	#f56dd5;
+  }
+  100%{
+  color: #F56D91;
+  }
+  }
 /* .img__description {
   position: absolute;
   top: 0;

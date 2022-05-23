@@ -1,7 +1,7 @@
 h1{
 margin: 5% 0 2% 0;
-  color: #8946A6!important;
 font-size: 35px;
+animation: changColor 3s infinite;
 }
 h3{
   margin: 8% 0 3% 0;
@@ -57,3 +57,18 @@ text-align: center;
 
 
 }
+
+@keyframes changColor{
+  0%{
+  color: #8946A6;
+  }
+  25%{
+  color: #f58d6d;
+  }
+  50%{
+  color: 	#f56dd5;
+  }
+  100%{
+  color: #F56D91;
+  }
+  }
