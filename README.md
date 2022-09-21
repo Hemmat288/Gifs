@@ -6,6 +6,4 @@
 6-using box-shadow in category and hidden when hover
 7-using lizyloading in carousel gifs
 
- note:
-Unfortunately I don't have enough time to learn vue and make the task before a deadline, so I used angular
 
